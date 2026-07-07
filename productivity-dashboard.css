@@ -8,10 +8,9 @@
 
 body{
     background-color: #080914; 
-    background-image: radial-gradient(circle at 70% 30%, #040638 0%, #080914 85%);
     background-image: radial-gradient(circle at 70% 30%, #040638 0%, #080914 70%);
     background-size: 200% 200%; 
-    animation: dynamicGlow 8s ease infinite alternate;
+    nimation: dynamicGlow 8s ease infinite alternate;
     
     
 }
@@ -34,7 +33,7 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color:#000000;
-    border-bottom: 2px solid #0220ff;
+    border-bottom: 2px solid #0b0b7a;
     background:transparent; 
  
 }
@@ -75,4 +74,48 @@ body{
     padding:10px;
     background-color: #1c49ff;
     border-radius: 10px;
+}
+
+.hero-page{
+    height:450px;
+    width:100%;
+    border:2px solid rgb(255, 0, 0);
+    padding-top: 90px;
+    padding-left: 5%;
+
+}
+
+.line1{
+    font-size: 50px;
+
+}
+
+.line2{
+    font-size: 50px;
+    font-weight: 700;
+    background: linear-gradient(90deg,#735CFF 0%,#5A6DFF 40%, #3E82FF 70%,#2D9BFF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    
+}
+
+.line3{
+    font-size: 50px;
+    
+}
+
+.line4{
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.get{
+    padding:10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background: linear-gradient(90deg,#735CFF 0%,#5A6DFF 40%, #3E82FF 70%,#2D9BFF 100%);
+    border-radius: 20px;
+    font-size: 15px;
 }
