@@ -79,19 +79,18 @@ body{
 .hero-page{
     height:450px;
     width:100%;
-    border:2px solid rgb(255, 0, 0);
     padding-top: 90px;
     padding-left: 5%;
 
 }
 
 .line1{
-    font-size: 50px;
+    font-size: 60px;
 
 }
 
 .line2{
-    font-size: 50px;
+    font-size: 60px;
     font-weight: 700;
     background: linear-gradient(90deg,#735CFF 0%,#5A6DFF 40%, #3E82FF 70%,#2D9BFF 100%);
     -webkit-background-clip: text;
@@ -101,12 +100,12 @@ body{
 }
 
 .line3{
-    font-size: 50px;
+    font-size: 60px;
     
 }
 
 .line4{
-    font-size: 18px;
+    font-size: 20px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -117,5 +116,16 @@ body{
     padding-right: 25px;
     background: linear-gradient(90deg,#735CFF 0%,#5A6DFF 40%, #3E82FF 70%,#2D9BFF 100%);
     border-radius: 20px;
-    font-size: 15px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.hero-image{
+    width: 90vh;
+    height: 400px;
+    background-image: url('hero-img.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 700px;
+    margin-top: -340px;
 }
