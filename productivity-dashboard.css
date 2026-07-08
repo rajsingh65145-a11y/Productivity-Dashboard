@@ -163,4 +163,28 @@ body{
     align-items: center;
     border-top:2px solid #0b0b7a;
 }
+ 
+.to-do-img{
+    background-image: url('to-do.png');
+    height:80px;
+    width:80px;
+    margin-left: 20px;
+    margin-top:10px;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.heading1{
+    margin-left: 105px;
+    margin-top:-60px;
+    font-size: 27px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.dec{
+    margin-left:100px;
+    margin-top:20px;
+    font-size:18px;
+}
 
