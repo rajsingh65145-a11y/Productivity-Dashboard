@@ -150,10 +150,15 @@ body{
 
 .box1{
     width:300px;
-    height:250px;
-    border: 2px solid #ff0000;
-
+    height:200px;
+    border: 1px solid #022157b7;
+    border-radius: 30px;
+    background-color: #03050b5a;
+    
+  
 }
+
+.box1{}
 
 .foot{
     height:50px;
@@ -162,6 +167,7 @@ body{
     justify-content: center;
     align-items: center;
     border-top:2px solid #0b0b7a;
+
 }
  
 .to-do-img{
@@ -177,7 +183,7 @@ body{
 .heading1{
     margin-left: 105px;
     margin-top:-60px;
-    font-size: 27px;
+    font-size: 25px;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     
 }
@@ -186,5 +192,127 @@ body{
     margin-left:100px;
     margin-top:20px;
     font-size:18px;
+}
+
+.link{
+    display: inline-block;
+    margin-top:17px;
+    margin-left:35px;
+    font-size: 25px;
+    text-decoration: none;
+    text-shadow: 1px 0px 3px #1c49ff;
+
+}
+
+.arrow-link{
+    margin-left: 5px;
+}
+
+.box2{
+    width:300px;
+    height:200px;
+    border: 1px solid #022157b7;
+    border-radius: 30px;
+    background-color: #03050b5a;
+}
+
+.box3{
+    width:300px;
+    height:200px;
+    border: 1px solid #022157b7;
+    border-radius: 30px;
+    background-color: #03050b5a;
+}
+
+.box4{
+    width:300px;
+    height:200px;
+    border: 1px solid #022157b7;
+    border-radius: 30px;
+    background-color: #03050b5a;
+}
+
+.box5{
+    width:300px;
+    height:200px;
+    border: 1px solid #022157b7;
+    border-radius: 30px;
+    background-color: #03050b5a;
+}
+
+.box6{
+    width:300px;
+    height:200px;
+    border: 1px solid #022157b7;
+    border-radius: 30px;
+    background-color: #03050b5a;
+}
+
+.box7{
+    width:300px;
+    height:200px;
+    border: 1px solid #022157b7;
+    border-radius: 30px;
+    background-color: #03050b5a;
+}
+
+.notes-img{
+    background-image: url('document_logo.png');
+    height:80px;
+    width:80px;
+    margin-left: 20px;
+    margin-top:10px;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.weather-img{
+    background-image: url('weather_logo.png');
+    height:80px;
+    width:80px;
+    margin-left: 20px;
+    margin-top:10px;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.quotes-img{
+    background-image: url('quote_logo.png');
+    height:80px;
+    width:80px;
+    margin-left: 20px;
+    margin-top:10px;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.expences-img{
+    background-image: url('dollar_logo.png');
+    height:80px;
+    width:80px;
+    margin-left: 20px;
+    margin-top:10px;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.calender-img{
+    background-image: url('calendar_logo.png');
+    height:80px;
+    width:80px;
+    margin-left: 20px;
+    margin-top:10px;
+    background-repeat: no-repeat;
+    background-size: cover ;
+}
+
+.dark-mode-img{
+    background-image: url('moon_logo.png');
+    height:80px;
+    width:80px;
+    margin-left: 20px;
+    margin-top:10px;
+    background-repeat: no-repeat;
+    background-size: cover ;
 }
 
