@@ -1,0 +1,65 @@
+
+
+body{
+    background-color: #ccd5ae;
+    display:flex ;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.container{
+    width: 400px;
+    background: #fefae0;
+    padding: 20px;
+    border-radius: 20px;
+}
+  
+h1{
+    color:#780000;
+}
+
+.todo-box{
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+button{
+    padding: 4px;
+    cursor: pointer;
+}
+
+@media (max-width: 600px){
+
+    body{
+        padding: 20px;
+    }
+
+    .todo-box{
+        width: 100%;
+        max-width: 400px;
+        margin: auto;
+    }
+
+    h1{
+        font-size: 32px;
+        text-align: center;
+    }
+
+    #taskinput{
+        width: 70%;
+        font-size: 16px;
+    }
+
+    #addBtn{
+        width: 25%;
+        font-size: 14px;
+    }
+
+    li{
+        width: 100%;
+        font-size: 16px;
+    }
+}

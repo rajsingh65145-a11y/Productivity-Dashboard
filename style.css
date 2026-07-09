@@ -153,7 +153,7 @@ body{
     height:200px;
     border: 1px solid #022157b7;
     border-radius: 30px;
-    background-color: #03050b5a;
+    background-color: #0a0b115a;
     
   
 }
@@ -316,3 +316,11 @@ body{
     background-size: cover ;
 }
 
+.light-mode{
+    background-color: white;
+    color: black;
+}
+
+.light-mode *{
+    color:#fca311;
+}

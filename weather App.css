@@ -1,0 +1,34 @@
+body{
+    background:#0f172a;
+    font-family: arial;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    color:white;
+}
+
+.wheater-box{
+    background: #16191e;
+    padding:20px;
+    border-radius: 10px;
+    width:400px;
+    
+      text-align: center;
+}
+
+input{
+    width:100%;
+    padding:10px;
+    margin-bottom: 10px;
+
+}
+
+button{
+    padding: 10px 20px;
+    cursor:pointer;
+}
+
+#weatherresult{
+    margin-top: 20px;
+}

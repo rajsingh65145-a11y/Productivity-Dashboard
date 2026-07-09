@@ -1,0 +1,292 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body{
+
+    min-height:100vh;
+    background:linear-gradient(135deg,#0f172a,#1e3a8a);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+
+}
+
+
+
+.container{
+
+    width:100%;
+    max-width:500px;
+    background:#ffffff;
+    padding:30px;
+    border-radius:25px;
+
+    box-shadow:
+    0 15px 40px rgba(0,0,0,0.3);
+
+}
+
+
+
+h1{
+
+    text-align:center;
+    color:#1e293b;
+    margin-bottom:25px;
+    font-size:35px;
+
+}
+
+
+
+/* Balance Box */
+
+.balance-box{
+
+    background:linear-gradient(
+        135deg,
+        #2563eb,
+        #06b6d4
+    );
+
+    color:white;
+    padding:25px;
+    border-radius:20px;
+    text-align:center;
+    margin-bottom:25px;
+
+}
+
+
+
+.balance-box h2{
+
+    font-size:20px;
+    font-weight:400;
+
+}
+
+
+.balance-box h3{
+
+    font-size:35px;
+    margin-top:10px;
+
+}
+
+
+
+
+/* Form */
+
+#transaction-form{
+
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+
+}
+
+
+
+input{
+
+    padding:15px;
+
+    border:2px solid #e2e8f0;
+
+    border-radius:12px;
+
+    font-size:16px;
+
+    outline:none;
+
+}
+
+
+
+input:focus{
+
+    border-color:#2563eb;
+
+}
+
+
+
+
+button{
+
+    padding:15px;
+
+    border:none;
+
+    border-radius:12px;
+
+    background:#2563eb;
+
+    color:white;
+
+    font-size:16px;
+
+    cursor:pointer;
+
+    transition:0.3s;
+
+}
+
+
+
+button:hover{
+
+    background:#1d4ed8;
+
+    transform:translateY(-2px);
+
+}
+
+
+
+/* Transaction Section */
+
+
+.transactions{
+
+    margin-top:30px;
+
+}
+
+
+.transactions h2{
+
+    color:#1e293b;
+
+    margin-bottom:15px;
+
+}
+
+
+
+
+#transaction-list{
+
+    list-style:none;
+
+}
+
+
+
+/* Transaction Items */
+
+
+#transaction-list li{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+    padding:15px;
+
+    margin-bottom:12px;
+
+    border-radius:15px;
+
+    background:#f1f5f9;
+
+    font-size:17px;
+
+    border-right:6px solid;
+
+}
+
+
+
+/* JS ke classes */
+
+.income{
+
+    border-color:#16a34a !important;
+
+}
+
+
+
+.expense{
+
+    border-color:#dc2626 !important;
+
+}
+
+
+
+#transaction-list span{
+
+    display:flex;
+
+    align-items:center;
+
+    gap:15px;
+
+}
+
+
+
+/* Delete Button */
+
+
+.delete-btn{
+
+    background:#dc2626;
+
+    padding:7px 12px;
+
+    border-radius:50%;
+
+    font-size:14px;
+
+}
+
+
+
+.delete-btn:hover{
+
+    background:#991b1b;
+
+}
+
+
+
+
+/* Mobile */
+
+@media(max-width:600px){
+
+    .container{
+
+        padding:20px;
+
+    }
+
+
+    h1{
+
+        font-size:28px;
+
+    }
+
+
+    .balance-box h3{
+
+        font-size:30px;
+
+    }
+
+
+}
