@@ -11,8 +11,8 @@ html{
 body{
     background: #0f172a;
     color:#FFFFFF;
-
 }
+
 :root{
     --bg-color:#of172a;
     --navbar-color:#111827;
@@ -23,5 +23,121 @@ body{
     --text-color:#ffffff;
     --secondary-text:#94a3b8;
     --border-color:#334155;
+    --success:#22c55e;
+    --danger:#
+
+}
+body.light-mode{
+    --bg--color:#080914;
+    --navbar-color:#ffffff;
+    --card-color:#ffffff;
+    --card-hover:red;
+    --text-color:#111827;
+    --secondary-text:#275697;
+    --border-color:#cbd5e1;
+}
+body{
+   background:var(--bg--color);
+    background-color: #05082f; 
+    background-image: radial-gradient(circle at 70% 30%, #040638 0%, #080914 85%);
     
+}
+.navbar{
+    height:80px;
+    width: 100%;
+    background-color:#040638;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 40px;
+    /* position:fixed;
+    top:0;
+    left:0;
+    z-index:1000; */
+    border:1px solid red;
+}
+.logo{
+    display:flex;
+    align-items: center;
+    gap:12px;
+}
+.logo img{
+
+    width:42px;
+
+    height:42px;
+
+    object-fit:contain;
+
+}
+
+
+.logo h2{
+
+    font-size:26px;
+
+    font-weight:700;
+
+    letter-spacing:.5px;
+
+    color:var(--text-color);
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    gap:35px;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color:#275697;
+    font-size:16px;
+    font-weight: 500;
+    transition:0.3s;
+}
+nav ul li a:hover{
+    color:rgb(27, 27, 140)
+}
+nav ul li a.active{
+    color: navy;
+
+}
+.nav-icons{
+    display:flex;
+    align-items: center;
+    gap: 22px;
+
+}
+.nav-icons i{
+    font-size:20px;
+    cursor: pointer;
+    color: #22c55e;
+    transition:  0.3s;
+
+}
+.nav-icons i:hover{
+    color: red;
+
+}
+.theme-btn{
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    border: none;
+    background-color: #275697;
+     color:blue;
+     cursor: pointer;
+     transition:3s;
+
+}
+.theme-btn:hover{
+    background-color: #22c55e;
+    color: white;
+
+}
+.main-container{
+    padding: 120px 50px 40px;
+    width: 100%;
+
 }
