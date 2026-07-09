@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>productivity-dashboard</title>
     <link rel="stylesheet" href="Narayan.css">
+       <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
 </head>
 
 <body>
@@ -18,7 +19,7 @@
 
         <nav>
             <ul>
-                <li><a href="#" class="activa">home</a></li>
+                <li><a href="#" class="active">home</a></li>
                 <li><a href="#">Apps</a></li>
                 <li><a href="#">About</a></li>
                 <li><a href="#">contact</a></li>
@@ -30,7 +31,7 @@
             <i class="fa-regular fa-bell"></i>
 
             <i class="fa-regular fa-user"></i>
-            <button class="them-btn">
+            <button class="theme-btn">
                 <i class="fa-solid fa-moon"></i>
             </button>
 
@@ -44,12 +45,12 @@
         </section>
         <section class="top-controls">
             <div class="search-box">
-                <i class="fa-soid fa-magnifying-glass"></i>
+                <i class="fa-solid fa-magnifying-glass"></i>
                 <input type="text" placeholder="search task...">
             </div>
             <select>
                 <option>all</option>
-                <option>panding</option>
+                <option>pending</option>
                 <option>completed</option>
 
             </select>
@@ -92,10 +93,10 @@
 
             <div class="task-card">
                 <input type="checkbox">
-                <div class="task-into">
+                <div class="task-info">
                     <h3>buy groceries</h3>
 
-                    <span class="badge personal"></span>
+                    <span class="badge personal">personal</span>
                         
                 </div>
                 <div class="task-date">
@@ -105,7 +106,7 @@
                 </div>
             </div>
             <div class="task-card complete">
-                <input type="checkbox" cheked>
+                <input type="checkbox" checked>
                 <div class="task-info">
                     <h3>morning worout</h3>
 
@@ -118,7 +119,7 @@
                 </div>
             </div>
             <!--task 5-->
-            <div class="task-card completed">
+            <div class="task-card complete">
                 <input type="checkbox" checked>
                 <div class="task-info">
                     <h3>read a book</h3>
@@ -137,6 +138,10 @@
                 <div class="task-info">
                     <h3>meditation</h3>
                     <span class="badge health">health</span>
+                </div>
+                <div class="task-date">
+                    <span>may 18</span>
+                    <i class="fa-regular fa-trash-can"></i>
                 </div>
 
              </div>
